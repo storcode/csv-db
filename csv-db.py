@@ -63,7 +63,7 @@ def copy_csv():
     connection.autocommit = True
     cur = connection.cursor()
     try:
-        f = open(r'/home/stern/PythonTEMP/SampleCSVFile_11kb.csv', 'r')
+        f = open(r'/home/****(имя пользователя)/PythonTEMP/SampleCSVFile_11kb.csv', 'r')
         f.readline()
         cur.copy_from(f, 'samplecsvfile_1', sep=',')
         f.close()
