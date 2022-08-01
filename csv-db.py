@@ -21,7 +21,7 @@ def create_connection_db():
     connection = None
     try:
         connection = psycopg2.connect(user="postgres",
-                                      password="postgres",
+                                      password="******",
                                       host="127.0.0.1",
                                       port="5432",
                                       database="postgres")
