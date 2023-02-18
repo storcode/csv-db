@@ -72,7 +72,7 @@ def copy_csv():
         print(f"The error '{e}' occurred")
 
 
-# download_csv()
+download_csv()
 create_connection_db()
 create_tables()
 copy_csv()
